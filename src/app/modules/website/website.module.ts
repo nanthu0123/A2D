@@ -6,6 +6,9 @@ import { WebsiteRoutingModule } from './website-routing.module';
 import { FooterComponent, HeaderComponent } from './layouts';
 import { LandingComponent, LoginComponent } from './pages';
 import { NavbarComponent, SocialMediaComponent } from './components';
+import { BannerComponent } from './components/banner/banner.component';
+import { TestimonialComponent } from './components/testimonial/testimonial.component';
+import { HomeMainComponent } from './components/home-main/home-main.component';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { NavbarComponent, SocialMediaComponent } from './components';
     NavbarComponent,
     SocialMediaComponent,
     LandingComponent,
-    LoginComponent
+    LoginComponent,
+    BannerComponent,
+    TestimonialComponent,
+    HomeMainComponent
   ],
   imports: [
     CommonModule,
