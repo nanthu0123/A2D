@@ -1,0 +1,33 @@
+.navbar{
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav-left{
+        display: flex;
+        .logo img{
+            height: 60px;
+        }
+        .nav-list{
+            display: flex;
+            list-style: none;
+            li{
+                margin: 0 20px;
+            }
+        }
+    }
+    .nav-right{
+        display: flex;
+        align-items: flex-end;
+        .cart-logo{
+            img{
+                height: 40px;
+            }
+        }
+        .log-in{
+            .login-link{
+                list-style: none;
+            }
+        }
+    }
+}
