@@ -1,0 +1,35 @@
+.quote{
+    background-color: black;
+    height: 200px;
+    padding: 2rem;
+    .quote-text-1{
+        color: white;
+    }
+    .quote-text-2 {
+        display: inline;
+        background-color: yellow;
+    }
+    .quote-button{
+        background-color: yellow;
+        border: 0;
+        padding: 0.5rem;
+        border-radius: 7px;
+    }
+}
+
+.achievements{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d4bd00;
+    padding: 0 2rem;
+    div{
+        text-align: center;
+        h2{
+            font-size: 3rem;
+            color: white;
+        }
+        h3{
+            font-size: 2rem;
+        }
+    }
+}

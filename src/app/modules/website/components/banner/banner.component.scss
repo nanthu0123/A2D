@@ -1,0 +1,13 @@
+.banner{
+    height: 350px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b3a200;
+    .banner-content{
+        P{
+            text-align: center;
+        }
+    }
+}
