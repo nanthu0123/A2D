@@ -1,35 +1,110 @@
-.quote{
+section.quote {
     background-color: black;
-    height: 200px;
+    min-height: 300px;
     padding: 2rem;
-    .quote-text-1{
+    position: relative;
+    .quote-text-1 {
         color: white;
+        font-family: "Poppins Semi-bold-italic";
+        font-size: 50px;
     }
-    .quote-text-2 {
-        display: inline;
+    .quote-text-2-bg{
+        width: 600px;
+        padding: 0 20px;
         background-color: yellow;
+        transform: skewX(-45deg);
+        margin-left: 80px;
+        .quote-text-2 {
+            // display: inline;
+            font-family: "Poppins Semi-bold-italic";
+            font-size: 50px;
+            margin-bottom: 0;
+            line-height: 1;
+            transform: skewX(45deg);
+            padding-top: 1rem;
+        }
     }
-    .quote-button{
+    .quote-button {
+        display: block;
         background-color: yellow;
+        font-family: "Poppins Extra-bold";
+        font-size: 28px;
         border: 0;
-        padding: 0.5rem;
+        padding: 0.5rem 1.5rem;
+        margin: 0 0 0 auto;
         border-radius: 7px;
+        // float: right;
     }
 }
 
-.achievements{
-    display: flex;
-    justify-content: space-between;
+section.achievements {
     background-color: #d4bd00;
-    padding: 0 2rem;
-    div{
+    padding: 2rem;
+    div {
         text-align: center;
-        h2{
-            font-size: 3rem;
+        h2 {
+            font-family: "Poppins Extra-bold";
+            font-size: 70px;
             color: white;
         }
-        h3{
-            font-size: 2rem;
+        h3 {
+            font-family: "Poppins Semi-bold-italic";
+            font-size: 28px;
         }
+    }
+}
+section.carousel {
+    background-color: black;
+    min-height: 200px;
+    padding: 2rem;
+    p {
+        color: white;
+       display: flex;
+       justify-content: center;
+    }
+    .view-all-button {
+        display: block;
+        background-color: yellow;
+        font-family: "Poppins Extra-bold";
+        font-size: 26px;
+        border: 0;
+        padding: 0 0.5rem;
+        margin: 0 0 0 auto;
+        border-radius: 7px;
+        // float: right;
+    }
+}
+section.pc-range {
+    background-color: #d4bd00;
+    padding: 2rem;
+    .row {
+        img {
+            height: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+        .txt {
+            font-family: "Poppins Semi-bold-italic";
+            font-size: 34px;
+            display: block;
+            text-align: center;
+            width: 240px;
+            margin:  0 auto;
+            background-color: black;
+            color: yellow;
+            border-radius: 10px;
+        }
+    }
+    .pre-builds-button {
+        display: block;
+        background-color: yellow;
+        border: 0;
+        padding: 0 2rem;
+        border-radius: 7px;
+        // float: right;
+        // margin-top: 25px;
+        margin: 25px 0 0 auto;
+        font-family: "Poppins Extra-bold";
+        font-size: 36px;
     }
 }

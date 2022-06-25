@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestimonialComponent implements OnInit {
 
+  // icons
+
   constructor() { }
 
   ngOnInit(): void {

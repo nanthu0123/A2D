@@ -1,4 +1,11 @@
 .social-media{
     display: flex;
     gap: 20px;
+    img{
+        height: 50px;
+    }
+    i{
+        color: white;
+        size: 2rem;
+    }
 }

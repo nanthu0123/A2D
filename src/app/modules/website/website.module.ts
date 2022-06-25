@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { WebsiteRoutingModule } from './website-routing.module';
 
+
 import { FooterComponent, HeaderComponent } from './layouts';
 import { LandingComponent, LoginComponent } from './pages';
 import { NavbarComponent, SocialMediaComponent } from './components';
@@ -25,7 +26,7 @@ import { HomeMainComponent } from './components/home-main/home-main.component';
   ],
   imports: [
     CommonModule,
-    WebsiteRoutingModule
+    WebsiteRoutingModule,
   ]
 })
 export class WebsiteModule { }

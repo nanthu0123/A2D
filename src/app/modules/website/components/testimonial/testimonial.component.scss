@@ -1,0 +1,49 @@
+.testimonial {
+    min-height: 200px;
+    display: flex;
+    padding: 2rem;
+    .card {
+        min-height: 150px;
+        background-color: black;
+        margin: 20px auto;
+        padding: 1rem;
+        .head{
+            min-height: 60px;
+        }
+        h4 {
+            color: white;
+            font-family: "Poppins Semi-bold";
+            font-size: 28px;
+        }
+        p {
+            color: white;
+            font-family: "Poppins Regular";
+        }
+    }
+    .card.google-reviews{
+        .star-rating{
+            margin: 0 0 0 auto;
+            .star-icon{
+                color: yellow;
+                margin: 0 4px;
+            }
+        }
+    }
+    .card.solder-support {
+        display: flex;
+        h4 {
+            color: yellow;
+        }
+        .view-all-btn {
+            background-color: yellow;
+            font-family: "Poppins Extra-bold";
+            font-size: 26px;
+            border: 0;
+            padding:0 1rem;
+            border-radius: 7px;
+        }
+        .reviewer{
+            margin: 0 0 0 auto;
+        }
+    }
+}

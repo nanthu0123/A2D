@@ -1,8 +1,17 @@
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    app-social-media{
+    padding: 1rem 2rem;
+    background-color: black;
+    .copy-rights {
+        p {
+            color: white;
+            margin: 0 !important;
+            font-family: "Poppins Regular";
+        }
+    }
+    app-social-media {
         float: right;
     }
 }

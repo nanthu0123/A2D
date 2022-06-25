@@ -1,33 +1,70 @@
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 1.75rem;
-    .nav-left{
+.navbar {
+    background-color: black;
+    padding: 0;
+    .nav-left {
         display: flex;
-        .logo img{
-            height: 60px;
+        margin: 0 auto;
+        padding: 0.5rem 1.75rem;
+        .logo img {
+            height: 40px;
         }
-        .nav-list{
-            display: flex;
-            list-style: none;
-            li{
-                margin: 0 20px;
+        .logo .logo-text {
+            font-family: "Poppins Semi-bold";
+            color: white;
+            font-size: 24px;
+            padding-left: 20px;
+        }
+        .navbar-nav {
+            .nav-item {
+                margin: auto 20px;
+                a {
+                    color: white;
+                    font-size: 16px;
+                    font-family: "Poppins Semi-bold";
+                }
             }
         }
     }
-    .nav-right{
+
+
+    .nav-right {
         display: flex;
         align-items: flex-end;
-        .cart-logo{
-            img{
+        background-color: yellow;
+        padding: 0.5rem 0.5rem 0.5rem 1.75rem;
+        transform: skewX(-45deg);
+        // margin: 0 20px 0 0;
+
+        .cart-logo {
+            -webkit-transform: skew(45deg);
+            -moz-transform: skew(45deg);
+            -o-transform: skew(45deg);
+            img {
                 height: 40px;
             }
         }
-        .log-in{
-            .login-link{
-                list-style: none;
+        .navbar-nav {
+            -webkit-transform: skew(45deg);
+            -moz-transform: skew(45deg);
+            -o-transform: skew(45deg);
+            .nav-item {
+                margin: auto 20px;
+                a {
+                    color: black;
+                    font-size: 16px;
+                    font-family: "Poppins Semi-bold";
+                }
             }
         }
+    }
+    .nav-right::after {
+        content: "";
+        position: absolute;
+        width: 70px;
+        height: 100%;
+        background: yellow;
+        -webkit-transform: skewX(45deg);
+        right: -42px;
+        top: 0px;
     }
 }
